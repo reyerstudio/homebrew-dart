@@ -1,4 +1,4 @@
-# Dart for Homebrew
+# Dart 1.3.6 for Homebrew
 
 This is the official [Dart][] tap for [homebrew][].
 
