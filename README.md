@@ -12,7 +12,7 @@ If you don't have homebrew, install it from their [homepage][homebrew].
 Then, add this tap:
 
 ```
-brew tap dart-lang/dart
+brew tap sestegra/dart
 ```
 
 ## Installing
@@ -20,15 +20,16 @@ brew tap dart-lang/dart
 To install the Dart SDK:
 
 ```
-brew install dart
+brew install dart136
 ```
 
 Tip: Once installed, homebrew will print the path to the Dart SDK. Use this path to configure Dart support
 in your IDE (like WebStorm).
 
-For web developers, we highly recommend Dartium:
+For web developers, we highly recommend Dartium from dart-lang/dart:
 
 ```
+brew tap dart-lang/dart
 brew install dartium
 brew linkapps
 ```
@@ -39,7 +40,7 @@ Simply run:
 
 ```
 brew update
-brew upgrade dart dartium
+brew upgrade dartium
 ```
 
 [homebrew]: http://brew.sh/
