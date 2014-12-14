@@ -42,7 +42,7 @@ brew unlink dart && brew link dart136
 ```
 To switch from Dart 1.3.6 to latest Dart version
 ```
-brew unlink dar136t && brew link dart
+brew unlink dart136 && brew link dart
 ```
 
 ## Updating
