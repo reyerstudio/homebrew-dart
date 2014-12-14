@@ -34,6 +34,17 @@ brew install dartium
 brew linkapps
 ```
 
+## Selecting active version
+
+To switch from latest Dart version to Dart 1.3.6
+```
+brew unlink dart && brew link dart136
+```
+To switch from Dart 1.3.6 to latest Dart version
+```
+brew unlink dar136t && brew link dart
+```
+
 ## Updating
 
 Simply run:
